@@ -5,18 +5,20 @@ This is a full stack AI chatbot. The frontend is made with HTML, CSS, and JavaSc
 Organized files into a clean folder structure:
 
 FULLSTACKCB/
--- UI/                #Frontend      
-    index.html        #html page
-    scripts/app.js    #controlling frontend behavior with Java script
-    styles/style.css  #styling appearence of the chatbot
-   
--- Backend_Server/    #Backend
-    app.py            #Backeend server using python and flask
-    .env              #To store secret information like api keys
-    requirements.txt  #Packages to install
-   
--- Output/            #output screenshots
-.gitignore            # avoid uploading secret information to the git
+├── UI/                     # Frontend
+│   ├── index.html          # Main HTML page
+│   ├── scripts/
+│   │   └── app.js          # JavaScript to control frontend behavior
+│   └── styles/
+│       └── style.css       # CSS to style the appearance of the chatbot
+│
+├── Backend_Server/         # Backend (Flask API)
+│   ├── app.py              # Flask server to handle API requests
+│   ├── .env                # Stores secret information like API key
+│   └── requirements.txt    # List of Python packages to install
+│
+├── Output/                 # Screenshots or output images for demo
+├── .gitignore              # Prevents secret files from being uploaded to Git
 
 2. UI Design & Input Handling
 created a simple and clean user interface using HTML, CSS, and Bootstrap to ensure responsiveness across screen sizes. The interface includes a text area where users can type their prompts and a submit button labeled “Ask AI”. When the user clicks the button, their input is sent to the backend, and the AI’s response is displayed on the screen. The layout is styled with Bootstrap classes for consistent spacing and formatting. And also used chat-style bubbles with emoji icons (👤 for the user and 🤖 for the AI) to give the chatbot a modern and friendly look. The entire interface is intuitive, easy to use, and fully responsive.

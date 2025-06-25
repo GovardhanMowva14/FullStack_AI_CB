@@ -1,6 +1,6 @@
 # Full_Stack_AI_Chatbot
 This is a full stack AI chatbot. The frontend is made with HTML, CSS, and JavaScript. The backend is made with Flask (Python). It connects to the Google Gemini API to answer the questions like ChatGPT.
-
+ 
 1. Project Setup
 The project is organized into clearly defined folders for frontend, backend, and output assets.
 
